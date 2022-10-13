@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Birthday E-Vite</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+    
+        <div id="container"> 
+        <div id="image"><img src="background.jpg" alt="image"></div> 
+        <p>YOU HAVE BEEN INVITED!</p>  
+        <p>COME AND CELEBRATE MY 21st BIRTHDAY at 1474 G ST 11AM!</p>
+        <p>HANG OUT AND HAVE SOME FUN!</p>
+        <p>Click here to <a id="RSVP" href="change%20(2).jpg">RSVP!</a></p>
+        </div>
+        
+
+        <ul class="navbar">
+            <li><a href=#gifts>Gift Registry</a></li>
+        </ul>
+        
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.js"></script>
+        <script src="sketch.js"></script> 
+        
+        <script>
+        let clickerButton = document.getElementById("RSVP");
+        let onButtonClick = function() {
+            clickerButton.innerHTML = "Thanks for answering! Looking forward to seeing you at the party!";
+}
+        clickerButton.addEventListener("click", onButtonClick);
+        </script>
+       
+    </body>
+        </html>

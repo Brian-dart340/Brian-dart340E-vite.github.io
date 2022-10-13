@@ -1,0 +1,51 @@
+.navbar {
+    list-style: none;
+    background-color: aquamarine;
+    margin: 0px auto;
+    padding: 10px 0px
+    width: auto;
+    text-align: center;
+    opacity: 40%;
+}
+
+.navbar li {
+    display:inline;
+}
+
+.navbar a {
+    text-decoration: none;
+    padding: 10px 59px;
+    font-size: 24px;
+}
+
+.navbar a:hover {
+    background-color: lightpink;
+    padding: 10px 59px;
+}
+
+#container {
+    text-align: center;
+    background-color: #56D8FC;
+    font-family: monospace;
+    font-size: 25px;
+    color: black;
+    border: 10px solid lightblue;
+    width: 85%;
+    height: 750px;
+    margin: 0px auto;
+    overflow: auto;
+}
+
+#image {
+    position: relative;
+    top: 0px;
+    float:inherit;
+}
+
+
+canvas {
+    position:absolute;
+    top: 50px;
+    right: 1088px;
+   
+}
